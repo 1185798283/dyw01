@@ -1,0 +1,623 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,textarea,select,td,th{
+	margin:0;
+	padding: 0; 
+}
+/*header*/
+.headers{
+	width: 100%;
+	background: #191d3a;
+	height: 58px;
+
+}
+.header{
+	width: 1000px;
+	height: 58px;
+	background: #191d3a;
+	margin:0 auto;
+}
+.header a{
+	text-decoration: none;
+	color: #818496;
+}
+.header .one{
+	width: 225px;
+	height: 35px;
+	float: left;
+	border-right:1px solid #252947;
+	padding: 10px 0px 13px 0px;
+}
+.header .two{
+	width: 120px;
+	height: 58px;
+	float: left;
+	border-right:1px solid #252947;
+	text-align: center;
+	line-height: 58px;
+
+}
+.header .three{
+	width: 120px;
+	height: 58px;
+	float: left;
+	border-right:1px solid #252947;
+	text-align: center;
+	line-height: 58px;
+}
+.header .four{
+	width: 120px;
+	height: 58px;
+	float: left;
+	border-right:1px solid #252947;
+	text-align: center;
+	line-height: 58px;
+}
+.header .five{
+	width: 120px;
+	height: 58px;
+	float: left;
+	border-right:1px solid #252947;
+	text-align: center;
+	line-height: 58px;
+}
+.header .six{
+	width: 290px;
+	height: 58px;
+	float: left;
+	line-height: 58px;
+	text-indent: 21px;
+}
+/*/header*/
+/*necker*/
+
+.necker{
+	width: 100%;
+	height: 30vw;
+	background: url(../img/2018banner.jpg) no-repeat;
+	background-size: 100% 30vw;
+}
+
+
+/*/necker*/
+/*bodyer*/
+.bodyer{
+	background: #ffffff;
+	width: 66%;
+	padding-top: 37px;
+	color: #38b774;
+	text-align: center;
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.bodyer .oneer{
+	width: 20%;
+	height: 194px;
+	float: left;
+	margin-right: 43px;
+	margin-bottom: 18px;
+}
+.bodyer .twoer{
+	width: 20%;
+	height: 194px;
+	float: left;
+	margin-bottom: 18px;
+	margin-right: 43px;
+
+}
+.bodyer .threeer{
+	width: 20%;
+	height: 194px;
+	float: left;
+	margin-bottom: 18px;
+	margin-right: 43px;
+
+}
+.bodyer .fourer{
+	width: 20%;
+	height: 194px;
+	margin-bottom: 18px;
+	float: left;
+
+}
+.bodyer img{
+	width: 100%;
+}
+
+/*/bodyer*/
+/*leger*/
+.leger{
+	width: 66%;
+	background: url(../img/beijing1.png);
+	margin:0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.leger .one_ad{
+	width: 50%;
+	margin-right: 40px;
+	float: left;
+
+}
+.leger .one_ad .onep{
+	background: url(../img/biaoji1.png) no-repeat left center;
+	text-indent: 36px;
+	color: #444866;
+	font-size: 23px;
+	float: left;
+
+}
+.leger .one_ad form{
+	float: right;
+	width: 65px;
+	height: 23px;
+}
+.leger .one_ad .one_one{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #dbe1e7;
+	clear: both;
+	line-height: 49px;
+	color: #444866;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+.leger .one_ad .one_one p{
+	color:#afbecf;
+	float: right;
+	font-size: 10px;
+
+}
+.leger .one_ad .one_two{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #dbe1e7;
+	clear: both;
+	line-height: 49px;
+	color: #444866;
+	font-size: 12px;
+	text-transform: capitalize;
+	
+}
+.leger .one_ad .one_two p{
+	color:#afbecf;
+	float: right;
+	font-size: 10px;
+
+}
+.leger .one_ad .one_three{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #dbe1e7;
+	clear: both;
+	line-height: 49px;
+	color: #444866;
+	font-size: 12px;
+	text-transform: capitalize;
+/*	clear: both;*/
+	
+}
+.leger .one_ad .one_three p{
+	color:#afbecf;
+	float: right;
+	font-size: 10px;
+
+}
+.leger .one_ad .one_four{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #dbe1e7;
+	clear: both;
+	line-height: 49px;
+	color: #444866;
+	font-size: 12px;
+	text-transform: capitalize;
+	
+}
+.leger .one_ad .one_four p{
+	color:#afbecf;
+	float: right;
+	font-size: 10px;
+
+}
+.leger .one_ad .one_five{
+	width: 100%;
+	height: 49px;
+	border-bottom: 1px solid #dbe1e7;
+	clear: both;
+	line-height: 49px;
+	color: #444866;
+	font-size: 12px;
+	text-transform: capitalize;
+	
+}
+.leger .one_ad .one_five p{
+	color:#afbecf;
+	float: right;
+	font-size: 10px;
+
+}
+.leger .two_ad{
+	width: 44%;
+}
+.leger .two_ad p{
+	background: url(../img/biaoji.png) no-repeat left center;
+	/* background-size: 100%; */
+	text-indent: 36px;
+	margin:58px 0px 31px;
+	color: #444866;
+	font-size: 23px;
+}
+.leger .two_ad img{
+	width:100%;
+}
+
+/*/leger*/
+/*footer*/
+.footer{
+	width: 100%;
+	background: #1b1e38;
+	color:  #6c6e7e;
+	padding: 40px 0 10px;
+	font-size: 13px;
+}
+.footer p{
+	width: 66%;
+	margin:0 auto 30px;
+}
+.footer_ul{
+	list-style: none;
+	display: flex;
+	width: 66%;
+	margin:0 auto 30px;
+}
+.footer_ul li{
+	width: 80px;
+	font-size: 12px;
+	text-align: center;
+}
+.footer a{
+	text-decoration: none;
+	color:  #6c6e7e;
+	
+}
+.footer_li{
+	border-right: 1px solid  #6c6e7e;
+}
+/*/footer*/
+
+
+
+
+
+/* ...................................................................................................... */
+
+/* 博雅游戏 */
+#game_neck{
+	width: 100%;
+	height: 254px;
+	background: url(../img/gamebanner.jpg) no-repeat;
+}
+#game_leg{
+	width:66%;
+	margin: 0 auto;
+}
+.game_leg_head{
+	display: flex;
+	justify-content: space-between;
+	padding:15px 0 ;
+	border-bottom: 1px solid #c7d6e5;
+}
+.game_leg_head_one{
+	font-weight: 800;
+    font-size: 20px;
+    color: #444866;
+	text-indent: 30px;
+	background: url(../img/location.png) no-repeat 1px -94px;
+}
+.game_leg_head_two{
+	font-size: 12px;
+	align-self:center;
+}
+.game_leg_head a{
+	text-decoration: none;
+	margin-right: 10px;
+}
+.game_leg_foot{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;	
+}
+.game_leg_foot_ulone{
+	width: 20%;
+}
+.game_leg_foot_ulone li{
+	list-style: none;
+	height: 50px;
+	line-height: 50px;
+	padding: 10px 0;
+	display: flex;
+	border-bottom: 1px  solid #c7d6e5;
+}
+.game_leg_foot_ulone li span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.game_leg_foot_ulone li p{
+	display: inline-block;
+	margin-bottom:10px ;
+}
+.game_leg_foot_li1,.game_leg_foot_li2,.game_leg_foot_li3,.game_leg_foot_li4,.game_leg_foot_li5{
+	width:50px;
+	height: 50px;
+	background: url(../img/pad.png) no-repeat;
+}
+.game_leg_foot_li1{
+	background-position: 3px 6px;
+}
+.game_leg_foot_li2{
+	background-position: -2px -93px;
+}
+.game_leg_foot_li3{
+	background-position: 5px -192px;;
+}
+.game_leg_foot_li4{
+	background-position: 2px -288px;
+}
+.game_leg_foot_li5{
+	background-position: 0 -497px;
+}
+.game_leg_foot_ultwo{
+	width: 76%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.game_leg_foot_twoli1{
+	background-color: #f7f7f7;
+	width: 45%;
+	border: 1px solid #cad6e1;
+	height: 23vw;
+	border-radius: 5px;
+	list-style: none;
+	margin:0 0  10px 10px;
+}
+.game_leg_foot_twoli2{
+	margin-left: 3.5vw;
+}
+.game_leg_foot_twoli1 h3{
+	height: 58px;
+}
+.game_leg_foot_twoli1 img{
+	width: 100%;
+}
+
+/* .................................博雅新闻............................................................... */
+#news_neck{
+	width: 100%;
+	height: 14vw;
+	background: url(../img/newsbanner.jpg);
+	background-size: 100%;
+}
+.news_log{	
+	width:66%;
+	margin: 0 auto;
+}
+.news_log_foot{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.news_log_foot_right{
+	width: 25%;
+	height: 20vw;
+	padding-left: 1%;
+	border-left: 1px solid #c7d6e5;
+	text-align: center;
+}
+.news_log_foot_left{
+	width: 72%;
+	padding: 10px 1% 0 0 ;
+}
+.news_log_foot_left li{
+	list-style: none;
+	padding: 10px 0;
+}
+.news_log_foot_left li a{
+	display: inline-block;
+	text-decoration:none;
+	width: 85%;
+	color: #444866;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.news_log_foot_left li span{
+	color: #afbecf;
+	font-size: 12px;
+}
+/* .......................................关于我们.............................................. */
+
+#about_neck{
+	width: 100%;
+	height: 14vw;
+	background: url(../img/aboutbanner.jpg);
+	background-size: 100%;
+}
+#about_leg{
+	width:66%;
+	margin: 0 auto;
+}
+.about_leg_foot{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.about_leg_foot_left{
+	width: 22%;
+}
+.about_leg_foot_left_ul{
+	list-style: none;
+}
+.about_leg_foot_left_ul li{
+	padding: 20px 0;
+	border-bottom: 1px solid #c7d6e5;
+}
+.about_leg_foot_right{
+	width: 70%;
+}
+
+/* ...................................客服中心.................................................................. */
+#service_neck{
+	width: 100%;
+	height: 14vw;
+	background: url(../img/faqbanner.jpg);
+	background-size: 100%;
+}
+#service_leg{
+	width:66%;
+	margin: 0 auto;
+}
+.service_leg_ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 40px 0;
+}
+.service_leg_ul li{
+	width: 32%;
+	height: 11vw;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 3px;
+}
+.service_leg_ul_li{
+	margin-right: 2%;
+}
+.service_leg_ulspan1,.service_leg_ulspan2,.service_leg_ulspan3{
+	display: inline-block;
+	width:20%;
+	height: 5vw;
+	background: url(../img/faqicon.png) no-repeat;
+	background-size: 97%;
+}
+.service_leg_ulspan1{
+	background-position: 10px 0;
+}
+.service_leg_ulspan2{
+	 background-position: 10px -9vw;
+ }
+
+ .service_leg_ulspan3{
+ 	 background-position: 2px -14vw;
+  }  
+/* ........................................响应式............................................................. */
+@media screen  and (max-width:1020px){
+	.header_a{
+		display: none;
+	}
+	.bodyer .oneer{
+		width:40%;
+	}
+	.bodyer .twoer{
+		width:40%;
+	}
+	.bodyer .threeer{
+		width:40%;
+	}
+	.bodyer .fourer{
+		width:40%;
+	}
+	.leger .one_ad{
+		width:100%;
+	}
+	.leger .two_ad{
+		width:100%;
+	}
+	.game_leg_foot_ulone{
+		display: none;
+	}
+	.game_leg_foot_ultwo{
+		width: 100%;
+	}
+	.game_leg_foot_twoli1{
+		width: 46%;
+		margin: 0 0 30px 0;
+	}
+	.game_leg_foot_twoli2{
+		margin-left: 32px;
+	}
+	.game_leg_foot{
+		width: 80%;
+	}
+	.game_leg_foot{
+		width: 100%;
+	}
+	.news_log_foot_left{
+		width: 96%;
+		margin: 0 auto;
+	}
+	.news_log{
+		width: 100%;
+	}
+	#about_leg{
+		width: 96%;
+	}
+	.about_leg_foot_left{
+		display: none;
+	}
+	.about_leg_foot_right{
+		width: 100%;
+	}
+	#service_leg{
+		width: 100%;
+	}
+	.service_leg_ul li{
+		width: 100%;
+		height: 18vw;
+	}
+	.service_leg_ul_li{
+		margin: 0 0 20px 0;
+	}
+	.service_leg_ul li span{
+		width: 10%;
+		height:9vw;
+	}
+	.service_leg_ulspan1{
+		background-position: 8px -9px;
+	}
+	.service_leg_ulspan2{
+		background-position: 0 -34vw;
+	}
+	.service_leg_ulspan3{
+		background-position: 8px -23vw;
+	}
+}
+
+@media screen and (max-width:700px){
+	.bodyer .oneer{
+		width:100%;
+		margin-bottom: 96px;
+	}
+	.bodyer .twoer{
+		width:100%;
+		margin-bottom: 96px;
+	}
+	.bodyer .threeer{
+		width:100%;
+		margin-bottom: 96px;
+	}
+	.bodyer .fourer{
+		width:91%;
+		margin-bottom: 96px;
+	}
+	.game_leg_foot_twoli1{
+		width: 100%;
+		margin: 0 0 30px 0;
+		height: 60vw;
+	}
+	.game_leg_foot_twoli2{
+		margin-left: 0;
+	}
+}
+
